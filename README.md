@@ -52,13 +52,19 @@ ansible-playbook -i inventory/hosts.ini really-main.yml
 ```
 
 
-### Useful links ###
+### Useful links: ###
 [About Ansible](https://docs.ansible.com/ansible_community.html)
+
 [About Terraform](https://developer.hashicorp.com/terraform/docs)
+
 [Libvirt privider](https://registry.terraform.io/providers/dmacvicar/libvirt/latest/docs)
+
 [About Libvirt](https://ubuntu.com/server/docs/virtualization-libvirt)
+
 [About writing cloud_init_config](https://cloudinit.readthedocs.io/en/latest/topics/examples.html)
+
 [Images to use for deploys](https://cloud-images.ubuntu.com/)
+
 [About Minio storage](https://min.io/docs/minio/container/index.html) 
 
 
