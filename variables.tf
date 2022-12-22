@@ -25,14 +25,3 @@ variable "vm_img_path" {
   type        = string
 }
 
-variable "access_key" {
-  
-}
-
-variable "secret_key" {
-  
-}
-
-variable "s3_minio_endpoint" {
-  
-}
