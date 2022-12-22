@@ -5,9 +5,9 @@ terraform {
   backend "s3" {
     bucket                      = "tfe"
     key                         = "terraform.tfstate"
-    endpoint                    = var.s3_minio_endpoint
-    access_key                  = var.access_key
-    secret_key                  = var.secret_key
+    endpoint                    = ### change to minio container endpoint if using minio
+    access_key                  = ### paste minio access key
+    secret_key                  = ### paste minio secret key
     region                      = "main"
     skip_credentials_validation = true
     skip_metadata_api_check     = true
