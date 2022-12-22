@@ -48,7 +48,7 @@ terraform apply
 cd ansible
 ```
 ```
-ansible-playbook -i inventory/hosts.ini really-main.yml
+ansible-playbook -i inventory/hosts.ini -u <remote user>  really-main.yml
 ```
 
 
