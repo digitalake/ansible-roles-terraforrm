@@ -1,6 +1,0 @@
----
-- name: create file in etc 
-  hosts: iaac
-  roles:
-    - file-creator
-#  tasks:
