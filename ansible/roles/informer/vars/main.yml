@@ -1,1 +1,1 @@
-ansible_user: deployer
+ansible_user: deployer  #use your remote username here
