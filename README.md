@@ -51,7 +51,6 @@ Files need to be created additinaly:
   - _terraform.tfvars_ (with your own variables values)
   - right template(u can see an example in this repo) for performing _hosts.ini_ generation
   > Note! U can use input variables list from _variables.terraform_ file
-  - recommend u to change ansible config file for disabling host_key_checking
   
 >About TF backend: if u feel unconfident using TF backend u can skip backend block and use terraform with tfstate locally
 
