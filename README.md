@@ -72,6 +72,7 @@ cd ansible
 ```
 Execute the playbook (by name):
   - primary.yml_
+
 by running following command
 ```
 ansible-playbook -i inventory/hosts.ini <playbook-name>
