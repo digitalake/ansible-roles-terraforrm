@@ -71,7 +71,7 @@ Then cd to ansible dir to work with Ansible with following command:
 cd ansible
 ```
 Execute the playbook (by name):
-  - primary.yml_
+  - _primary.yml_
 
 by running following command
 ```
