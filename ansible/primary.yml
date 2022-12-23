@@ -1,0 +1,9 @@
+---
+- name: getting distorinfo 
+  hosts: all
+  roles:
+    - informer
+- name: create file in etc 
+  hosts: iaac
+  roles:
+    - file-creator

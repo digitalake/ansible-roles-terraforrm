@@ -1,6 +1,0 @@
----
-- name: getting distorinfo 
-  hosts: all
-  roles:
-    - informer
-#  tasks:
