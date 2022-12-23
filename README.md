@@ -77,9 +77,9 @@ by running following command
 ansible-playbook -i inventory/hosts.ini <playbook-name>
 ```
 
->You can skip adding _-u $username_ step if username is defined in role's variable (see .../roles/<role-name>/vars/main.yml content)
+>You can skip adding _-u $username_ step if username is defined in role's variable (see .../roles/$role-name/vars/main.yml content)
 
->Host checking is disabled by role's defaults (see .../roles/<role-name>/defaults/main.yml content)
+>Host checking is disabled by role's defaults (see .../roles/$role-name/defaults/main.yml content)
 
 
 ### Useful links: ###
